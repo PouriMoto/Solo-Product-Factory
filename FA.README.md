@@ -1,5 +1,4 @@
 ---
-dir: rtl
 lang: fa
 ---
 
