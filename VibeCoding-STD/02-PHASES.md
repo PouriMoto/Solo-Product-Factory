@@ -76,7 +76,7 @@
 - Distributed Cache
 - Observability کامل (Trace + Metric + Log یکپارچه)
 - Audit Log
-- Multi-Tenant (در صورت نیاز مدل کسب‌وکار)
+- Multi-Tenant (در صورت نیاز مدل کسب‌وکار) و اگر محصول از همان اول چند کاربره است آن را در همان MVP لحاظ کن.
 
 ---
 
