@@ -55,6 +55,9 @@ UI → Service → Repository → Database
 
 اگر مسیر داده مستقیم UI → Database (بدون Service/Repository) بود، یا Analytics مستقیم از UI/localStorage خوانده می‌شد، این قانون نقض شده است.
 
+علاوه بر Data Flow، قبل از نوشتن کد هر Feature، AI باید این تصمیم‌ها را صریح اعلام کند: منبع داده (Data Source)، Repository، Caching، Permission، Validation، سرویس‌های خارجی (External Services)، هر Dependency تازه.
+اگر یکی از این‌ها بدون اعلام قبلی در کد ظاهر شود، این قانون نقض شده است. پرامپت آماده در `06-PROMPTS.md`.
+
 ## قانون ۵ — بدون Secret در Frontend
 
 هیچ کلید API، توکن یا Secret نباید داخل کد Frontend یا Repository عمومی قرار بگیرد.

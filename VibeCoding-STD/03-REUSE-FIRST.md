@@ -21,6 +21,10 @@
 | Logging / Monitoring | Better Stack، Datadog، خدمات هاست (Liara/Arvan) | فقط تنظیمات سفارشی روی این‌ها |
 | CI/CD | GitHub Actions، پلتفرم هاست | — |
 | Date/Time handling | یک کتابخانه ثابت انتخاب کن (مثل date-fns) و همان‌جا بمان | هیچ‌وقت خودت الگوریتم تاریخ ننویس |
+| Search | Algolia، Typesense، Meilisearch | فقط اگر منطق رتبه‌بندی خیلی خاص محصول است |
+| AI Provider | OpenAI، Anthropic، Google، یا Wrapper آماده (Vercel AI SDK) | فقط منطق Prompt/Workflow اختصاصی محصول |
+| Workflow / Automation | n8n، Zapier، Make | فقط اگر Workflow واقعاً منحصربه‌فرد محصول است |
+| Queue / Background Jobs | سرویس هاست (مثل Supabase Edge Functions + Cron)، BullMQ، Inngest | تقریباً هیچ‌وقت خودت صف بنویس |
 
 ---
 

@@ -8,7 +8,7 @@
 ## شروع پروژه جدید
 
 ```
-این قوانین (فایل Constitution پیوست) را در تمام این پروژه رعایت کن.
+این قوانین (فایل Constitution پیوست) و وضعیت فعلی پروژه (فایل 08-PROJECT-STATE پیوست) را در تمام این پروژه رعایت کن.
 پروژه فعلاً در فاز [Discovery/MVP/Growth/Scale] است — قوانین همان فاز از فایل Phases را هم اعمال کن.
 قبل از نوشتن هر کد، معماری Data Flow آن Feature را در یک خط نشان بده:
 UI → Service → Repository → Database
@@ -18,11 +18,12 @@ UI → Service → Repository → Database
 ## قبل از هر Feature تازه
 
 ```
-قبل از نوشتن این Feature، این سه سؤال را جواب بده:
+قبل از نوشتن این Feature، این سؤال‌ها را جواب بده:
 ۱. آیا این قابلیت آماده (در Framework/سرویس/کتابخانه) وجود دارد؟ (طبق اصل Reuse First)
 ۲. Data Flow این Feature چیست؟
-۳. اگر بعداً دیتابیس عوض شود، این Feature چند فایل باید تغییر کند؟
-بعد از پاسخ به این سه سؤال، کد را بنویس.
+۳. تصمیم‌های زیر را صریح اعلام کن: Data Source، Repository، Caching، Permission، Validation، External Services، هر Dependency تازه.
+۴. اگر بعداً دیتابیس عوض شود، این Feature چند فایل باید تغییر کند؟
+بعد از پاسخ به این سؤال‌ها، کد را بنویس.
 ```
 
 ## بررسی معماری فعلی (Data Flow کامل)
